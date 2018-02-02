@@ -1,20 +1,3 @@
-/*         Ryan Burgett
-        rdb@iastate.edu 
-        CPRE 185 Section L  
-Programming Practice NUMBER
-         <Reflection 1 What were you trying to learn or achieve?>
-                I was trying to create a program that prints pascals triangle using arrays and loops.
-        <Reflection 2 Were you successful? Why or Why not?>
-        I was successful to a point. I can get my program to print out the values of pascals triangle but only up to the 27th row.
-        In Order to go past the 27th row I would have to change the value that I commented on to a lager number. But as the number gets larger the triangle looks less and less like a triangle.
-<Reflection 3 Would you do anything differently if starting this program over?  If so, explain what.>
-        I would figure out a way to print the triangle without having it rely on the number of digits each number can have in order for spacing to work out.
-<Reflection 4 Think about the most important thing you learned when writing this piece of code.  What was it and explain why it was significant.>
-        The number that comes befor %d is very important. If the number is incorrect all of my program breaks.
-<Other questions/comments for Instructors>
-        Answer here (optional)
-*/
-
 #include <stdio.h>
 
 void pTriangle(int rows);
