@@ -1,19 +1,3 @@
-/*         Ryan Burgett
-        rdb@iastate.edu 
-        CPRE 185 Section L  
-Programming Practice NUMBER 6
-<Reflection 1 What were you trying to learn or achieve?>
-                I was trying to create a program that dynamically allocates memory for a password and then determines the "strength" of that password.
- <Reflection 2 Were you successful? Why or Why not?>
-        I was successful. My program will dynamically allocate memory and determine the strength of the password.
-<Reflection 3 Would you do anything differently if starting this program over?  If so, explain what.>
-        I would make my program able to determine the strength of the password based on more than just length.
-<Reflection 4 Think about the most important thing you learned when writing this piece of code.  What was it and explain why it was significant.>
-        I learned that determining the length of a string is important and the compiler wont always catch out of bounds errors.
-<Other questions/comments for Instructors>
-        Answer here (optional)
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
