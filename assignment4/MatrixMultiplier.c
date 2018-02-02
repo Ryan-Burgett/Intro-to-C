@@ -1,19 +1,3 @@
-/*         Ryan Burgett
-        rdb@iastate.edu 
-        CPRE 185 Section L  
-Programming Practice NUMBER 4
-<Reflection 1 What were you trying to learn or achieve?>
-                I was trying to create a program that acts as a matrix multiplication calculator.
- <Reflection 2 Were you successful? Why or Why not?>
-        I was successful. My program will multiply two matrices of any size up to 10x10.
-<Reflection 3 Would you do anything differently if starting this program over?  If so, explain what.>
-        I would figure out a way to include more functions in my program to make main look cleaner.
-<Reflection 4 Think about the most important thing you learned when writing this piece of code.  What was it and explain why it was significant.>
-        Arrays need to be passed as pointers not arrays. Much of my debugging process was determining what needed to be passed as what.
-<Other questions/comments for Instructors>
-        Answer here (optional)
-*/
-
 #include <stdio.h>
   
 void printMatrix(int arr[10][10], int row, int col);
